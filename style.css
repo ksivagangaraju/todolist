@@ -119,3 +119,54 @@ span:hover {
   color: #fff;
   border-radius: 50%;
 }
+
+@media (max-width: 420px) {
+  .container {
+    min-height: calc(100vh - 64px);
+    width: 95%;
+    margin: 32px auto;
+  }
+
+  .todo-input-container {
+    margin-bottom: 38px;
+  }
+
+  .todo-input-container h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .todo-input-container input {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-bottom: 14px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  ul {
+    gap: 18px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+  }
+
+  li {
+    gap: 10px;
+  }
+
+  li input[type="checkbox"] {
+    -ms-transform: scale(1.15); /* IE */
+    -webkit-transform: scale(1.15); /* Safari and Chrome */
+    transform: scale(1.15);
+  }
+
+  li .label-container {
+    padding: 8px 12px;
+  }
+}
